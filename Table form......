@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rsgistration Form</title>
+    <link rel="stylesheet" href="syle.css">
+</head>
+
+<body>
+    <form>
+        <table border="4px">
+            <th colspan=2 style="color: red;background-color:yellow; ">
+                <h1>Registration Form</h1>
+            </th>
+            <tr style="background-color: rgb(77, 169, 238);">
+                <td><label>Enter Name</Label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr style="background-color: rgb(77, 169, 238);">
+                <td><label>Enter Password</Label></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr style="background-color: rgb(77, 169, 238);">
+                <td><label>Enter Address</Label></td>
+                <td><input type="text"></td>
+
+            </tr>
+            <tr style="background-color: rgb(77, 169, 238);">
+                <td><label>Select Game</Label></td>
+                <td><input type="checkbox"><label>Hockey</label><br><input
+                        type="checkbox"><label>Football</label><br><input
+                        type="checkbox"><label>Badminton</label><br><input
+                        type="checkbox"><label>Cricket</label><br><input type="checkbox"><label>Volleyball</label></td>
+            </tr>
+
+            <tr style="background-color: rgb(77, 169, 238);">
+                <td><label>gender</Label></td>
+                <td><input type="radio" name="gender" value="Male">male
+                    <input type="radio" name="gender" value="Female">female
+                </td>
+            </tr>
+            <tr style="background-color: rgb(77, 169, 238);">
+                <td>Select Your Age</td>
+                <td>
+                    <select name="AGe" id="age">
+                        <option value="select">select</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+
+                    </select>
+                </td>
+
+            </tr>
+
+            <tr style="background-color: rgb(77, 169, 238);">
+                <td><label>Select Photo</label></td>
+                <td><input type="file" name="file" id="file" placeholder="choose file"></td>
+
+            </tr>
+
+            <tr align="center">
+                <TD COLSPAN=2>
+                    <input type="button" VALUE="Click me">
+                    <input type="reset" VALUE="Reset">
+                    <input type="submit" VALUE="Submit Form">
+                </TD>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>
