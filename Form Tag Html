@@ -1,0 +1,159 @@
+#HTML
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="std.css">
+</head>
+
+<body>
+
+
+    </nav>
+    <div class="main">
+
+        <div class="tag">
+            <h3>
+                Step 1: Your Details </h3>
+            <form action="">
+                <div class="dihsu">
+                    <label for="">Name</label>
+                    <input placeholder="Enter Your Name" type="text" name="Name" id="name"><br>
+                </div>
+                <div class="dihsu">
+                    <label for="">Email</label>
+                    <input type="email" placeholder="dishu@gmail.com" name="email" id="email"><br>
+                </div>
+                <div class="dihsu">
+                    <label for="">Phone</label>
+                    <input type="text" placeholder="Eg. 8748239890" id="phone no">
+                </div>
+                <h3>Step 2: Delivery Address</h3>
+                <div class="dihsu">
+
+                    <label for="">Address</label>
+                    <textarea name="address" id="address" cols="22" rows="5"></textarea><br>
+                </div>
+                <div class="dihsu">
+
+                    <label for="">Post Code</label>
+                    <input type="text" name="code" id="code"><br>
+                </div>
+                <div class="dihsu">
+
+                    <label for="">Counrty</label>
+                    <input type="text" name="country" id="country">
+                </div>
+
+                <h3>Step 3: Card Details </h3>
+                <div class="dihsu">
+
+                    <label for="">Card Type</label><br>
+                    <input type="radio" name="visa" id="visa" value="visa">Visa
+
+                    <input type="radio" name="visa" id="visa" value="visa">AmEx
+                    <input type="radio" name="visa" id="visa" value="visa">Mastercard<br>
+                </div>
+                <div class="dihsu">
+
+                    <label for="">card No</label>
+                    <input type="text" name="cardno" id="cardno" placeholder="card no"><br>
+                </div>
+                <div class="dihsu">
+
+                    <label for="">Security</label>
+                    <input type="text" name="serurity" id="security"><br>
+                </div>
+                <div class="dihsu">
+
+                    <label for="">Name on card</label>
+                    <input type="text" placeholder="Extra name  as the card" name="" id="">
+                </div>
+                <button type="submit">Buy It!</button>
+
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
+
+#CSS.............
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    text-align: center;
+    height: 100%;
+
+}
+
+input {
+    margin: 5px;
+    box-shadow: 1px 1px rgb(14, 12, 12);
+    padding: 3px;
+}
+
+.tag {
+    background-color: rgb(33, 236, 33);
+    margin: 50px;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 10px;
+    box-shadow: 2px 4px 3px 3px black;
+    border: 1px whitesmoke;
+    padding-top: 10px;
+}
+
+h3 {
+    color: black;
+    text-align: left;
+    margin: 10px;
+    margin-left: 40px;
+}
+
+.tag:hover{
+    background-color: rgb(38, 204, 38);
+    box-shadow: 1px 2px 1px 1px black;
+}
+button{
+    margin: 10px;
+    padding: 6px;
+    background-color: rgb(33, 30, 30);
+    border-radius: 20px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+button:hover{
+    background-color: black;
+    box-shadow: 1px 2px;
+}
+input:hover{
+    box-sizing: border-box;
+    box-shadow: none;
+
+}
+textarea{
+    box-shadow: 1px 1px black;
+}
+.dihsu{
+    background-color: rgba(255, 255, 255, 0.502);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3px;
+    border: 2px rgb(218, 12, 12);
+    border-radius: 3px;
+    padding: 10px;
+    border: 2px solid rgb(234, 227, 227);
+}
+.dihsu label{ 
+    font-weight: 600;
+   
+}
